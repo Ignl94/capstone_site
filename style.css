@@ -1,0 +1,16 @@
+#history-imgs {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+}
+
+#history-imgs > img {
+  width: 230px;
+  margin: 2em;
+  height: 15em;
+}
+
+hr {
+  color: red;
+  height: 3em;
+}
