@@ -11,6 +11,30 @@
 }
 
 hr {
-  color: red;
   height: 3em;
+}
+
+.potters-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.potters-img {
+  width: 36%;
+  height: 19em;
+}
+
+.potters-bio {
+  width: 36%;
+}
+
+.potters-works {
+  margin: 2em;
+}
+
+.potters-works > img {
+  width: 27%;
+  height: 12em;
 }
