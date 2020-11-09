@@ -1,4 +1,14 @@
 /* MAIN PAGE (mostly) SECTION */
+body {
+  background-color: rgba(80, 80, 172, 0.664);
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  background-color: rgba(182, 180, 150, 0.842);
+}
 
 #history-imgs {
   width: 40%;
@@ -19,7 +29,7 @@ hr {
 .potters-section {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-bottom: 2em;
 }
 
@@ -33,7 +43,9 @@ hr {
 }
 
 .potters-works {
-  margin: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .potters-works > img {
@@ -41,10 +53,29 @@ hr {
   height: 12em;
 }
 
+.potters-img {
+  border: 1px solid green;
+}
+
 footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  background-color: rgba(165, 160, 160, 0.534);
 }
 
 /*   END OF MAIN PAGE (mostly) SECTION */
+
+.card-container {
+  border: 1px solid green;
+  width: 100%;
+  height: 12em;
+}
+
+.container-adjust {
+  margin: 3em;
+}
+
+#fixed-width {
+  width: 90%;
+}
