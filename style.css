@@ -79,3 +79,24 @@ footer {
 #fixed-width {
   width: 90%;
 }
+
+.card-container {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+button {
+  margin-top: 8.8em;
+  height: 1.5em;
+}
+
+small {
+  color: goldenrod;
+  font-weight: 10em;
+}
+form {
+  width: 90%;
+  border: 3px solid gold;
+  background-color: rgba(218, 208, 208, 0.918);
+  margin-bottom: 1em;
+}
